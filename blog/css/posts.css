@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+  }
+
+.header{
+    background-color: #ff5f11;
+    text-align: center;
+    color:#fff;
+    height: 115px ;
+}
+
+.header h1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.menu{
+    list-style:none;
+    display: flex; 
+    justify-content: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu li a{
+    color:#fff; 
+    text-decoration:none; 
+    border-radius: 10px;
+    padding: 15px; 
+}
+
+.menu li a:hover{
+    background:#ff6f29;
+}
+
+
+.post-section{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px; 
+}
+
+.post-titulo{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #ff5f11;
+}
+
+.post-text{
+    line-height: 1.5;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.post-infos{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+.post-separator{
+    margin-top: 20px;
+    border: 0.5px solid #ff5f11;
+    margin-bottom: 30px;
+}
+
+.post-infos strong{
+    color: #ff5f11;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff5f11;
+    min-width: 160px;
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.btn-deletar{
+    text-decoration:none; 
+    border-radius: 10px;
+    padding: 8px; 
+    background-color: #ff5f11;
+    color:#fff; 
+}
+
+.btn-deletar:hover{
+    background-color: #ff6f29; 
+}
+
+.titulo-home{
+    color: #ff5f11;
+    margin-top: 20px;
+    
+}

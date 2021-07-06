@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+  }
+
+.header{
+    background-color: #ff5f11;
+    text-align: center;
+    color:#fff;
+    height: 115px ;
+}
+
+.header h1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.menu{
+    list-style:none;
+    display: flex; 
+    justify-content: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu li a{
+    color:#fff; 
+    text-decoration:none; 
+    border-radius: 10px;
+    padding: 15px; 
+}
+
+.menu li a:hover{
+    background:#ff6f29;
+}
+
+.posts-content{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 1px solid black;
+    margin-top: 50px; 
+    max-width: 1000px;
+    border-radius: 5px;
+    padding: 15px; 
+    margin-bottom: 20px;
+}
+
+.posts-content h2{
+    color: #ff5f11; 
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-posts input{
+    padding: 8px;
+    margin-top: 10px;
+    width: 250px;
+}
+
+#titulo{
+    width: 270px;
+
+}
+
+label[for=story]{
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+.form-posts select{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-postar{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    background-color: #ff5f11;
+    border-color: #ff5f11;
+    color: #fff
+}
+
+.btn-postar:hover{
+    background-color: #ff6f29;
+    border-color: #ff6f29;
+}
+
+select{
+    font-size: 15px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff5f11;
+    min-width: 160px;
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff; 
+    background-color: #ff5f11; 
+    padding: 50px;
+    margin-top: 100px;
+  }

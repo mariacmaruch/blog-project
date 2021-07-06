@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+  }
+
+.header{
+    background-color: #ff5f11;
+    text-align: center;
+    color:#fff;
+    height: 115px ;
+}
+
+.header h1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.menu{
+    list-style:none;
+    display: flex; 
+    justify-content: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu li a{
+    color:#fff; 
+    text-decoration:none; 
+    border-radius: 10px;
+    padding: 15px; 
+}
+
+.menu li a:hover{
+    background:#ff6f29;
+}
+
+.login-content{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 1px solid black;
+    margin-top: 100px; 
+    max-width: 450px;
+    border-radius: 5px;
+    padding: 15px; 
+  }
+
+.form-login{
+    text-align: center;
+}
+
+.form-login input{
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.btn-entrar{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    background-color: #ff5f11;
+    border-color: #ff5f11;
+    color: #fff
+}
+
+.btn-entrar:hover{
+    background-color: #ff6f29;
+    border-color: #ff6f29;
+}
+
+.login-cadastrar{
+    text-align: end;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-cadastrar a{
+    text-decoration: none;
+    color: #000;
+}
+
+.login-cadastrar a:hover{
+    color: #ff5f11;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff5f11;
+    min-width: 160px;
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+span{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ff5f11;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff; 
+    background-color: #ff5f11; 
+    padding: 50px;
+    margin-top: 180px;
+  }
+
